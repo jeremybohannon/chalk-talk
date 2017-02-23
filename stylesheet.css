@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    min-width: 100%;
+}
+
+/* HEADER CSS*/
+header {
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #00b7c8;
+    font-family: "source_sans_prosemibold", Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+header nav #title {
+    font-size: 35px;
+    height: inherit;
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav {
+    display: flex;
+    width: inherit;
+    height: inherit;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    height: 40px;
+    width: inherit;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    height: 40px;
+    padding: 0 15px;
+}
+
+nav ul a {
+    display: inline-block;
+    height: inherit;
+    padding: 5px 10px;
+}
+
+nav ul a:hover {
+    background-color: white;
+    color: #757575;
+}
+/*END HEADER CSS*/
+
+/*MAIN CSS*/
+main {
+    width: 50%;
+    height: 50%;
+}
+
+
+/*FOOTER CSS*/
+footer {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: inherit;
+    background-color: #f9f9f9;
+    color: #838383;
+}
+
+footer #footer-content {
+    display: block;
+    height: 200px;
+    width: 100px;
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*END FOOTER CSS*/
