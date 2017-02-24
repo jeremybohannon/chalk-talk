@@ -22,6 +22,8 @@ header {
 }
 
 header nav #title {
+    display: inline-block;
+    min-width: 250px;
     font-size: 35px;
     height: inherit;
     width: 300px;
@@ -33,6 +35,7 @@ a {
 }
 
 nav {
+    box-sizing: border-box;
     display: flex;
     width: inherit;
     height: inherit;
@@ -69,7 +72,7 @@ nav ul a:hover {
 /*MAIN CSS*/
 main {
     width: 100%;
-    height: 43rem;
+    height: 75%;
     margin-top: 50px;
     margin-bottom: 50px;
     color: #212121;
