@@ -90,78 +90,11 @@ main {
 }
 
 /*BEGIN SVG CSS*/
-/*------------------------------THIS IS OBVIOUSLY TEMPORARY------------------------------*/
-svg {
+embed {
     margin-top: 50px;
     height: 85%;
 }
-
-/*STOP JUDGING ME, OBVIOUSLY TEMPORARY*/
-#neck:hover{
-    fill: #00b7c8;
-}
-
-#trap:hover{
-    fill: #00b7c8;
-}
-
-#trap-2:hover {
-    fill: #00b7c8;
-}
-
-#delt:hover {
-    fill: #00b7c8;
-}
-
-#delt-2:hover {
-    fill: #00b7c8;
-}
-
-#tricep:hover {
-    fill: #00b7c8;
-}
-
-#tricep-2:hover {
-    fill: #00b7c8;
-}
-
-#bicep:hover {
-    fill: #00b7c8;
-}
-
-#bicep-2:hover {
-    fill: #00b7c8;
-}
-#chest:hover {
-    fill: #00b7c8;
-}
-
-#abs:hover {
-    fill: #00b7c8;
-}
-
-#hips:hover {
-    fill: #00b7c8;
-}
-
-#oblique:hover {
-fill: #00b7c8;
-}
-
-#oblique-2:hover {
-fill: #00b7c8;
-}
-
-
-#quad:hover{
-    fill: #00b7c8;
-}
-
-#quad-2:hover{
-    fill: #00b7c8;
-}
 /*END SVG CSS*/
-
 
 /*FOOTER CSS*/
 footer {
@@ -175,11 +108,16 @@ footer {
 }
 
 footer #footer-content {
+    text-align: center;
     display: block;
     height: 200px;
-    width: 100px;
+    width: 300px;
     padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer #footer-content a:hover{
+    color: #00b7c8;
 }
 /*END FOOTER CSS*/
