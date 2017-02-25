@@ -88,6 +88,16 @@ main {
     text-align: center;
     margin-bottom: 100px;
 }
+/*END MAIN CSS*/
+
+/*BEGIN SERVICES CSS*/
+#brian {
+    border-radius: 5px;
+    box-shadow: #212121 0 0 5px;
+}
+/*END SERVICES CSS*/
+
+
 
 /*BEGIN SVG CSS*/
 embed {
