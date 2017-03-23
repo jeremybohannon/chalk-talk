@@ -5,6 +5,7 @@
     <title>Chalk-Talk</title>
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../stylesheet.css">
+    <script src="../index.js"></script>
 </head>
 <body>
 <header>
@@ -29,9 +30,30 @@
     <div class="content-wrapper">
         <!--Product section that sells my services-->
         <h1>Premium Fitness Services</h1>
-        <img id="brian" src="../images/brian_shaw.jpg" alt="Brian Shaw">
         <h2>Purchase Now For $75/month!</h2>
-        <h3>We accept all forms of payment!</h3>
+        <figure>
+            <img id="brian" src="../images/brian_shaw.jpg" alt="brian_shaw">
+            <form id="form">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="johndoe@email.com" required><br>
+                <br>
+                <label for="ccnum">Credit Card Number</label><br>
+                <input type="text" id="ccnum" class="ccnum" name="ccnum" maxlength="4" placeholder="XXXX" required> -
+                <input type="text" id="ccnum1" class="ccnum" name="ccnum" maxlength="4" placeholder="XXXX" required> -
+                <input type="text" id="ccnum2" class="ccnum" name="ccnum" maxlength="4" placeholder="XXXX" required> -
+                <input type="text" id="ccnum3" class="ccnum" name="ccnum" maxlength="4" placeholder="XXXX" required>
+                <br>
+                <br>
+                <label for="ccsnum">Security Code</label><br>
+                <input type="text" id="ccsnum" name="ccsnum" maxlength="3" placeholder="XXX" required><br>
+                <br>
+                <label for="expire">Expiration Date</label><br>
+                <input type="text" id="expire" class="ccnum" name="expire" maxlength="2" placeholder="MM" required> /
+                <input type="text" id="expire1" class="ccnum" name="expire" maxlength="2" placeholder="YY" required> <br>
+                <br>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </form>
+        </figure>
     </div>
 </main>
 <footer>
