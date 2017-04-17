@@ -5,6 +5,9 @@
     <title>Chalk-Talk</title>
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../stylesheet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../index.js"></script>
+    <script src="https://use.fontawesome.com/8b3197bb16.js"></script>
 </head>
 <body>
 <header>
@@ -28,8 +31,24 @@
 <main>
     <!--Future content-->
     <div class="content-wrapper">
+      <h3>Check out some of Brian Shaw's legendary pictures!</h3>
         <div class="gallery-wrapper">
-            Gallery Goes Here
+          <div class="slide-show-wrapper">
+            <i class="fa fa-arrow-left button" id="leftButton" aria-hidden="true"></i>
+            <div id="slideshow">
+              <img class="mySlides" src="../images/brian_shaw.jpg" style="width:100%">
+              <img class="mySlides" src="../images/brian_shaw2.jpg" style="width:100%">
+              <img class="mySlides" src="../images/brian_shaw3.jpg" style="width:100%">
+              <img class="mySlides" src="../images/brian_shaw4.jpg" style="width:100%">
+            </div>
+            <i class="fa fa-arrow-right button" id="rightButton" aria-hidden="true"></i>
+          </div>
+          <div class="hover-wrapper">
+              <span class="dot" id="1"></span>
+              <span class="dot" id="2"></span>
+              <span class="dot" id="3"></span>
+              <span class="dot" id="4"></span>
+          </div>
         </div>
     </div>
 </main>
