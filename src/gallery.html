@@ -5,8 +5,10 @@
     <title>Chalk-Talk</title>
     <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../stylesheet.css">
+    <!-- Jquery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="../index.js"></script>
+    <!-- Font awesome CDN -->
     <script src="https://use.fontawesome.com/8b3197bb16.js"></script>
 </head>
 <body>
@@ -29,20 +31,24 @@
     </nav>
 </header>
 <main>
-    <!--Future content-->
+    <!--Wrapper for gallery page-->
     <div class="content-wrapper">
+      <!--Simple header for the gallery page  -->
       <h3>Check out some of Brian Shaw's legendary pictures!</h3>
         <div class="gallery-wrapper">
           <div class="slide-show-wrapper">
+            <!-- Icon provided by fontawesome -->
             <i class="fa fa-arrow-left button" id="leftButton" aria-hidden="true"></i>
+            <!-- Wrapper for the iamges to be in a slide show -->
             <div id="slideshow">
-              <img class="mySlides" src="../images/brian_shaw.jpg" style="width:100%">
-              <img class="mySlides" src="../images/brian_shaw2.jpg" style="width:100%">
-              <img class="mySlides" src="../images/brian_shaw3.jpg" style="width:100%">
-              <img class="mySlides" src="../images/brian_shaw4.jpg" style="width:100%">
+              <img class="mySlides" alt="brian shaw" src="../images/brian_shaw.jpg">
+              <img class="mySlides" alt="brian shaw" src="../images/brian_shaw2.jpg">
+              <img class="mySlides" alt="brian shaw" src="../images/brian_shaw3.jpg">
+              <img class="mySlides" alt="brian shaw" src="../images/brian_shaw4.jpg">
             </div>
             <i class="fa fa-arrow-right button" id="rightButton" aria-hidden="true"></i>
           </div>
+          <!-- Wrapper for the hover dots that controls the slide show -->
           <div class="hover-wrapper">
               <span class="dot" id="1"></span>
               <span class="dot" id="2"></span>
