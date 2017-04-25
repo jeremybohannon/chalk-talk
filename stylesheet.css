@@ -67,6 +67,11 @@ nav ul a:hover {
     background-color: white;
     color: #757575;
 }
+
+.onSite {
+  background-color: white;
+  color: #757575;
+}
 /*END HEADER CSS*/
 
 /*MAIN CSS*/
@@ -79,7 +84,9 @@ main {
 }
 
 .content-wrapper {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 40rem;
     height: 100%;
     margin-left: auto;
@@ -87,6 +94,11 @@ main {
     padding: 10px;
     text-align: center;
     margin-bottom: 100px;
+}
+
+.content-wrapper img {
+  height: 75%;
+  width: auto;
 }
 /*END MAIN CSS*/
 
@@ -163,8 +175,9 @@ main {
 /*END GALLERY CSS*/
 /*BEGIN FORMS CSS*/
 figure {
-    margin-top: 75px;
+    margin-top: 1em;
     height: 75%;
+    width: 100%;
     border: #00b7c8 solid;
     border-radius: 20px;
     background-color: #f7f7f7;
@@ -177,7 +190,7 @@ figure {
 form {
     width: 75%;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-top: 1%;
     text-align: left;
 }
 
@@ -227,6 +240,10 @@ input[type="submit"]:hover {
 input[type="submit"]:active {
     background-color: #008594;
 }
+
+#contact-form {
+  width: 100%;
+}
 /*END FORMS CSS*/
 
 /*BEGIN SVG CSS*/
@@ -251,7 +268,7 @@ footer #footer-content {
     text-align: center;
     display: block;
     height: 200px;
-    width: 300px;
+    width: 500px;
     padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
