@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="../stylesheet.css">
     <!-- Jquery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Link to contact.js -->
     <script src="../contact.js"></script>
 </head>
 <body>
@@ -32,33 +31,24 @@
 <main>
     <!--Future Content-->
     <div class="content-wrapper">
-      <!-- Figure for the contact form -->
         <figure id="contact-form">
-          <!-- title -->
             <h2 id="formHeader">Contact Us!</h2>
-            <!-- Begin form for use to fill out -->
             <form id="form">
-              <!-- Name of user -->
                 <label for="name">Your Name</label><br>
                 <input type="text" id="name" name="name" placeholder="John Doe" required><br>
                 <br>
-                <!-- Email of user -->
                 <label for="email">Your Email</label><br>
                 <input type="email" id="email" name="email" placeholder="johndoe@email.com" required><br>
                 <br>
-                <!-- Subject line -->
                 <label for="subject">Subject</label><br>
                 <input type="text" id="subject" name="subject" placeholder="Subject Line" required><br>
                 <br>
-                <!-- message -->
                 <label for="message">Message</label><br>
                 <textarea id="message" name="message" placeholder="Message" required></textarea><br>
                 <br>
-                <!-- Confirm user is not a robot -->
                 <input type="checkbox" id="robot" name="robot" required>
                 <label for="robot">I am not a robot</label><br>
                 <br>
-                <!-- submit button -->
                 <input type="submit" id="submit" name="submit" value="Submit">
             </form>
         </figure>

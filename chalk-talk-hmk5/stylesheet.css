@@ -176,7 +176,7 @@ main {
 /*BEGIN FORMS CSS*/
 figure {
     margin-top: 1em;
-    height: 33em;
+    height: 75%;
     width: 100%;
     border: #00b7c8 solid;
     border-radius: 20px;
@@ -258,7 +258,7 @@ footer {
     box-sizing: border-box;
     position: absolute;
     bottom: 0;
-    height: 50px;
+    height: 100px;
     width: inherit;
     background-color: #f9f9f9;
     color: #7a7a7a;
@@ -269,7 +269,7 @@ footer #footer-content {
     display: block;
     height: 200px;
     width: 500px;
-    padding-top: 5px;
+    padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
