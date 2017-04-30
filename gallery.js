@@ -10,7 +10,7 @@ $(document).ready(function(){
 
   //Variables to set colors
   var defaultColor = 'rgba(30, 140, 150, 0.23)';
-  var highlightColor = '#00b7c8';
+  var highlightColor = '#2c3e50';
 
   var numOfImages = images.length;
 
